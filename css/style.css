@@ -1,4 +1,11 @@
 
+/*** Custom Color Variables ***/
+:root {
+    --primary-color: #0343B4;
+    --secondary-color: #D41301;
+    --accent-color: #FD7E00;
+}
+
 /*** Spinner Start ***/
 /*** Spinner ***/
 #spinner {
@@ -905,3 +912,85 @@
     background: var(--bs-secondary) !important;
 }
 /*** copyright end ***/
+
+
+/*** Accent Color Features ***/
+/* Add accent color to specific highlight elements */
+.accent-text {
+    color: var(--accent-color);
+}
+
+.accent-bg {
+    background-color: var(--accent-color);
+}
+
+.accent-border {
+    border-color: var(--accent-color) !important;
+}
+
+/* Badge and tag highlights with accent color */
+.badge-accent {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+/* Accent color for special emphasis and animations */
+.sub-title {
+    color: var(--accent-color) !important;
+}
+
+/* Counter and stats section accent highlights */
+.counter-facts .counter-icon {
+    color: var(--accent-color);
+}
+
+/* Training cards accent styling */
+.training-item .training-content {
+    background: linear-gradient(135deg, var(--bs-secondary) 0%, var(--accent-color) 100%);
+}
+
+/* Feature highlight with accent */
+a.btn.btn-outline-light:hover {
+    background: var(--accent-color) !important;
+    border-color: var(--accent-color) !important;
+}
+
+/* Service box accent borders */
+.service .service-item {
+    border-left: 5px solid var(--accent-color);
+}
+
+/* Testimonial and review accent styling */
+.testimonial-item {
+    border-left: 5px solid var(--accent-color);
+}
+
+/* Feature emphasis for CTAs */
+.btn.btn-outline-accent {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.btn.btn-outline-accent:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: white;
+}
+
+/* Accent color for important text and labels */
+.text-accent {
+    color: var(--accent-color) !important;
+}
+
+/* Icon styling with accent color */
+i.accent-color {
+    color: var(--accent-color);
+}
+
+/* Highlight section dividers with accent */
+.accent-divider {
+    border-top: 3px solid var(--accent-color);
+    margin: 20px 0;
+}
+
+/*** Accent Color Features End ***/
