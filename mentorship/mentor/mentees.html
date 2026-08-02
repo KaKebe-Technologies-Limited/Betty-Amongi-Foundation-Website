@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Mentees | Mentor | MentorMe 360</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link href="../assets/css/style.css" rel="stylesheet">
+<link href="../assets/css/responsive.css" rel="stylesheet">
+</head>
+<body>
+<div class="mm-app">
+    <div class="mm-sidebar-backdrop"></div>
+    <aside class="mm-sidebar">
+        <div class="sidebar-brand"><span class="brand-mark"><i class="bi bi-mortarboard-fill"></i></span>MentorMe <span class="text-mm-accent">360</span></div>
+        <div class="nav-section-label">Mentor Menu</div>
+        <nav class="nav flex-column">
+            <a class="nav-link" href="dashboard.html"><i class="bi bi-grid-1x2-fill"></i> Dashboard</a>
+            <a class="nav-link" href="sessions.html"><i class="bi bi-calendar2-week-fill"></i> Sessions</a>
+            <a class="nav-link active" href="mentees.html"><i class="bi bi-people-fill"></i> Mentees</a>
+            <a class="nav-link" href="materials.html"><i class="bi bi-folder2-open"></i> Materials</a>
+            <a class="nav-link" href="assessments.html"><i class="bi bi-clipboard2-check-fill"></i> Assessments</a>
+            <a class="nav-link" href="grading.html"><i class="bi bi-check2-square"></i> Grading <span class="badge bg-danger rounded-pill ms-auto">6</span></a>
+        </nav>
+        <div class="sidebar-footer"><a class="nav-link px-0" href="../login.html"><i class="bi bi-box-arrow-right"></i> Logout</a></div>
+    </aside>
+
+    <div class="mm-main">
+        <header class="mm-topbar">
+            <div class="d-flex align-items-center">
+                <button class="sidebar-toggle" data-sidebar-toggle><i class="bi bi-list fs-4"></i></button>
+                <h5 class="mb-0 font-heading">My Mentees</h5>
+            </div>
+            <img src="https://i.pravatar.cc/60?img=15" class="rounded-circle" width="40" height="40" alt="Milton Joel">
+        </header>
+
+        <main class="mm-content">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <p class="text-muted mb-0">24 participants assigned to you across the Leadership pillar.</p>
+                <select class="form-select w-auto"><option>All Pillars</option><option selected>Leadership</option></select>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-xl-4">
+                    <div class="mm-card p-4">
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <img src="https://i.pravatar.cc/70?img=47" class="rounded-circle" width="56" height="56" alt="Sarah Adoch">
+                            <div><h6 class="mb-0">Sarah Adoch</h6><span class="mm-badge mm-badge-muted">Leadership</span></div>
+                        </div>
+                        <div class="small text-muted mb-1 d-flex justify-content-between"><span>Progress</span><strong>88%</strong></div>
+                        <div class="mm-progress mb-3"><span style="width:88%;"></span></div>
+                        <div class="d-flex justify-content-between small mb-3"><span class="text-muted">Attendance: <strong class="text-dark">89%</strong></span><span class="text-muted">Avg. Score: <strong class="text-dark">85%</strong></span></div>
+                        <div class="d-flex gap-2"><a href="#" class="btn btn-sm btn-outline-mm-primary flex-fill">View Profile</a><a href="#" class="btn btn-sm btn-mm-primary flex-fill">Message</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="mm-card p-4">
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <img src="https://i.pravatar.cc/70?img=32" class="rounded-circle" width="56" height="56" alt="Grace Akello">
+                            <div><h6 class="mb-0">Grace Akello</h6><span class="mm-badge mm-badge-muted">Entrepreneurship</span></div>
+                        </div>
+                        <div class="small text-muted mb-1 d-flex justify-content-between"><span>Progress</span><strong>74%</strong></div>
+                        <div class="mm-progress mb-3"><span style="width:74%;"></span></div>
+                        <div class="d-flex justify-content-between small mb-3"><span class="text-muted">Attendance: <strong class="text-dark">95%</strong></span><span class="text-muted">Avg. Score: <strong class="text-dark">80%</strong></span></div>
+                        <div class="d-flex gap-2"><a href="#" class="btn btn-sm btn-outline-mm-primary flex-fill">View Profile</a><a href="#" class="btn btn-sm btn-mm-primary flex-fill">Message</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="mm-card p-4">
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <img src="https://i.pravatar.cc/70?img=12" class="rounded-circle" width="56" height="56" alt="Daniel Okot">
+                            <div><h6 class="mb-0">Daniel Okot</h6><span class="mm-badge mm-badge-muted">ICT &amp; Innovation</span></div>
+                        </div>
+                        <div class="small text-muted mb-1 d-flex justify-content-between"><span>Progress</span><strong>65%</strong></div>
+                        <div class="mm-progress mb-3"><span style="width:65%;"></span></div>
+                        <div class="d-flex justify-content-between small mb-3"><span class="text-muted">Attendance: <strong class="text-dark">72%</strong></span><span class="text-muted">Avg. Score: <strong class="text-dark">69%</strong></span></div>
+                        <div class="d-flex gap-2"><a href="#" class="btn btn-sm btn-outline-mm-primary flex-fill">View Profile</a><a href="#" class="btn btn-sm btn-mm-primary flex-fill">Message</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="mm-card p-4">
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <img src="https://i.pravatar.cc/70?img=25" class="rounded-circle" width="56" height="56" alt="Joyce Aber">
+                            <div><h6 class="mb-0">Joyce Aber</h6><span class="mm-badge mm-badge-muted">Personal Growth</span></div>
+                        </div>
+                        <div class="small text-muted mb-1 d-flex justify-content-between"><span>Progress</span><strong>92%</strong></div>
+                        <div class="mm-progress mb-3"><span style="width:92%;"></span></div>
+                        <div class="d-flex justify-content-between small mb-3"><span class="text-muted">Attendance: <strong class="text-dark">100%</strong></span><span class="text-muted">Avg. Score: <strong class="text-dark">94%</strong></span></div>
+                        <div class="d-flex gap-2"><a href="#" class="btn btn-sm btn-outline-mm-primary flex-fill">View Profile</a><a href="#" class="btn btn-sm btn-mm-primary flex-fill">Message</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="mm-card p-4">
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <img src="https://i.pravatar.cc/70?img=68" class="rounded-circle" width="56" height="56" alt="Emmanuel Okello">
+                            <div><h6 class="mb-0">Emmanuel Okello</h6><span class="mm-badge mm-badge-muted">Leadership</span></div>
+                        </div>
+                        <div class="small text-muted mb-1 d-flex justify-content-between"><span>Progress</span><strong>55%</strong></div>
+                        <div class="mm-progress mb-3"><span style="width:55%; background:linear-gradient(90deg,var(--mm-warning),var(--mm-danger));"></span></div>
+                        <div class="d-flex justify-content-between small mb-3"><span class="text-muted">Attendance: <strong class="text-dark">61%</strong></span><span class="text-muted">Avg. Score: <strong class="text-dark">58%</strong></span></div>
+                        <div class="d-flex gap-2"><a href="#" class="btn btn-sm btn-outline-mm-primary flex-fill">View Profile</a><a href="#" class="btn btn-sm btn-mm-primary flex-fill">Message</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="mm-card p-4">
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <img src="https://i.pravatar.cc/70?img=41" class="rounded-circle" width="56" height="56" alt="Patricia Amuge">
+                            <div><h6 class="mb-0">Patricia Amuge</h6><span class="mm-badge mm-badge-muted">Entrepreneurship</span></div>
+                        </div>
+                        <div class="small text-muted mb-1 d-flex justify-content-between"><span>Progress</span><strong>80%</strong></div>
+                        <div class="mm-progress mb-3"><span style="width:80%;"></span></div>
+                        <div class="d-flex justify-content-between small mb-3"><span class="text-muted">Attendance: <strong class="text-dark">88%</strong></span><span class="text-muted">Avg. Score: <strong class="text-dark">83%</strong></span></div>
+                        <div class="d-flex gap-2"><a href="#" class="btn btn-sm btn-outline-mm-primary flex-fill">View Profile</a><a href="#" class="btn btn-sm btn-mm-primary flex-fill">Message</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4"><button class="btn btn-outline-mm-primary">Load More Mentees</button></div>
+        </main>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,1568 @@
+{
+  "participants": [
+    {
+      "id": "P01",
+      "name": "Grace Aciro",
+      "email": "grace.aciro1@gmail.com",
+      "phone": "+256 771 3753",
+      "dob": "1997-02-02",
+      "district": "Alebtong",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": "P02",
+      "name": "Daniel Ogwal",
+      "email": "daniel.ogwal2@gmail.com",
+      "phone": "+256 772 7406",
+      "dob": "1998-03-03",
+      "district": "Amolatar",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": "P03",
+      "name": "Joyce Adong",
+      "email": "joyce.adong3@gmail.com",
+      "phone": "+256 773 1159",
+      "dob": "1999-04-04",
+      "district": "Apac",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=4"
+    },
+    {
+      "id": "P04",
+      "name": "Emmanuel Ojok",
+      "email": "emmanuel.ojok4@gmail.com",
+      "phone": "+256 774 4812",
+      "dob": "2000-05-05",
+      "district": "Dokolo",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": "P05",
+      "name": "Patricia Achola",
+      "email": "patricia.achola5@gmail.com",
+      "phone": "+256 775 8565",
+      "dob": "2001-06-06",
+      "district": "Kole",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=6"
+    },
+    {
+      "id": "P06",
+      "name": "Robert Owor",
+      "email": "robert.owor6@gmail.com",
+      "phone": "+256 776 2218",
+      "dob": "2002-07-07",
+      "district": "Kwania",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=7"
+    },
+    {
+      "id": "P07",
+      "name": "Betty Achieng",
+      "email": "betty.achieng7@gmail.com",
+      "phone": "+256 777 5971",
+      "dob": "2003-08-08",
+      "district": "Otuke",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=8"
+    },
+    {
+      "id": "P08",
+      "name": "Charles Akello",
+      "email": "charles.akello8@gmail.com",
+      "phone": "+256 778 9624",
+      "dob": "2004-09-09",
+      "district": "Oyam",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=9"
+    },
+    {
+      "id": "P09",
+      "name": "Winnie Okello",
+      "email": "winnie.okello9@gmail.com",
+      "phone": "+256 770 3377",
+      "dob": "2005-10-10",
+      "district": "Lira",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=10"
+    },
+    {
+      "id": "P10",
+      "name": "Immaculate Nafuna",
+      "email": "immaculate.nafuna10@gmail.com",
+      "phone": "+256 771 7030",
+      "dob": "1996-11-11",
+      "district": "Alebtong",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=11"
+    },
+    {
+      "id": "P11",
+      "name": "Milton Aciro",
+      "email": "milton.aciro11@gmail.com",
+      "phone": "+256 772 0783",
+      "dob": "1997-12-12",
+      "district": "Amolatar",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=12"
+    },
+    {
+      "id": "P12",
+      "name": "Sedrick Ogwal",
+      "email": "sedrick.ogwal12@gmail.com",
+      "phone": "+256 773 4436",
+      "dob": "1998-01-13",
+      "district": "Apac",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=13"
+    },
+    {
+      "id": "P13",
+      "name": "Peter Adong",
+      "email": "peter.adong13@gmail.com",
+      "phone": "+256 774 8189",
+      "dob": "1999-02-14",
+      "district": "Dokolo",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=14"
+    },
+    {
+      "id": "P14",
+      "name": "Mary Ojok",
+      "email": "mary.ojok14@gmail.com",
+      "phone": "+256 775 1842",
+      "dob": "2000-03-15",
+      "district": "Kole",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=15"
+    },
+    {
+      "id": "P15",
+      "name": "James Achola",
+      "email": "james.achola15@gmail.com",
+      "phone": "+256 776 5595",
+      "dob": "2001-04-16",
+      "district": "Kwania",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=16"
+    },
+    {
+      "id": "P16",
+      "name": "Susan Owor",
+      "email": "susan.owor16@gmail.com",
+      "phone": "+256 777 9248",
+      "dob": "2002-05-17",
+      "district": "Otuke",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=17"
+    },
+    {
+      "id": "P17",
+      "name": "David Achieng",
+      "email": "david.achieng17@gmail.com",
+      "phone": "+256 778 2901",
+      "dob": "2003-06-18",
+      "district": "Oyam",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=18"
+    },
+    {
+      "id": "P18",
+      "name": "Ruth Akello",
+      "email": "ruth.akello18@gmail.com",
+      "phone": "+256 770 6654",
+      "dob": "2004-07-19",
+      "district": "Lira",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=19"
+    },
+    {
+      "id": "P19",
+      "name": "John Okello",
+      "email": "john.okello19@gmail.com",
+      "phone": "+256 771 0307",
+      "dob": "2005-08-20",
+      "district": "Alebtong",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=20"
+    },
+    {
+      "id": "P20",
+      "name": "Christine Nafuna",
+      "email": "christine.nafuna20@gmail.com",
+      "phone": "+256 772 4060",
+      "dob": "1996-09-21",
+      "district": "Amolatar",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=21"
+    },
+    {
+      "id": "P21",
+      "name": "Moses Aciro",
+      "email": "moses.aciro21@gmail.com",
+      "phone": "+256 773 7713",
+      "dob": "1997-10-22",
+      "district": "Apac",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=22"
+    },
+    {
+      "id": "P22",
+      "name": "Florence Ogwal",
+      "email": "florence.ogwal22@gmail.com",
+      "phone": "+256 774 1466",
+      "dob": "1998-11-23",
+      "district": "Dokolo",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=23"
+    },
+    {
+      "id": "P23",
+      "name": "Isaac Adong",
+      "email": "isaac.adong23@gmail.com",
+      "phone": "+256 775 5119",
+      "dob": "1999-12-24",
+      "district": "Kole",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=24"
+    },
+    {
+      "id": "P24",
+      "name": "Agnes Ojok",
+      "email": "agnes.ojok24@gmail.com",
+      "phone": "+256 776 8872",
+      "dob": "2000-01-25",
+      "district": "Kwania",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=25"
+    },
+    {
+      "id": "P25",
+      "name": "Vincent Achola",
+      "email": "vincent.achola25@gmail.com",
+      "phone": "+256 777 2525",
+      "dob": "2001-02-26",
+      "district": "Otuke",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=26"
+    },
+    {
+      "id": "P26",
+      "name": "Harriet Owor",
+      "email": "harriet.owor26@gmail.com",
+      "phone": "+256 778 6278",
+      "dob": "2002-03-27",
+      "district": "Oyam",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=27"
+    },
+    {
+      "id": "P27",
+      "name": "Denis Achieng",
+      "email": "denis.achieng27@gmail.com",
+      "phone": "+256 770 9931",
+      "dob": "2003-04-28",
+      "district": "Lira",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=28"
+    },
+    {
+      "id": "P28",
+      "name": "Irene Akello",
+      "email": "irene.akello28@gmail.com",
+      "phone": "+256 771 3684",
+      "dob": "2004-05-01",
+      "district": "Alebtong",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=29"
+    },
+    {
+      "id": "P29",
+      "name": "Geoffrey Okello",
+      "email": "geoffrey.okello29@gmail.com",
+      "phone": "+256 772 7337",
+      "dob": "2005-06-02",
+      "district": "Amolatar",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=30"
+    },
+    {
+      "id": "P30",
+      "name": "Beatrice Nafuna",
+      "email": "beatrice.nafuna30@gmail.com",
+      "phone": "+256 773 1090",
+      "dob": "1996-07-03",
+      "district": "Apac",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=31"
+    },
+    {
+      "id": "P31",
+      "name": "Simon Aciro",
+      "email": "simon.aciro31@gmail.com",
+      "phone": "+256 774 4743",
+      "dob": "1997-08-04",
+      "district": "Dokolo",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=32"
+    },
+    {
+      "id": "P32",
+      "name": "Josephine Ogwal",
+      "email": "josephine.ogwal32@gmail.com",
+      "phone": "+256 775 8496",
+      "dob": "1998-09-05",
+      "district": "Kole",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=33"
+    },
+    {
+      "id": "P33",
+      "name": "Fred Adong",
+      "email": "fred.adong33@gmail.com",
+      "phone": "+256 776 2149",
+      "dob": "1999-10-06",
+      "district": "Kwania",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=34"
+    },
+    {
+      "id": "P34",
+      "name": "Judith Ojok",
+      "email": "judith.ojok34@gmail.com",
+      "phone": "+256 777 5802",
+      "dob": "2000-11-07",
+      "district": "Otuke",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=35"
+    },
+    {
+      "id": "P35",
+      "name": "Tom Achola",
+      "email": "tom.achola35@gmail.com",
+      "phone": "+256 778 9555",
+      "dob": "2001-12-08",
+      "district": "Oyam",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=36"
+    },
+    {
+      "id": "P36",
+      "name": "Night Owor",
+      "email": "night.owor36@gmail.com",
+      "phone": "+256 770 3208",
+      "dob": "2002-01-09",
+      "district": "Lira",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=37"
+    },
+    {
+      "id": "P37",
+      "name": "Alfred Achieng",
+      "email": "alfred.achieng37@gmail.com",
+      "phone": "+256 771 6961",
+      "dob": "2003-02-10",
+      "district": "Alebtong",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=38"
+    },
+    {
+      "id": "P38",
+      "name": "Sylvia Akello",
+      "email": "sylvia.akello38@gmail.com",
+      "phone": "+256 772 0614",
+      "dob": "2004-03-11",
+      "district": "Amolatar",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=39"
+    },
+    {
+      "id": "P39",
+      "name": "Richard Okello",
+      "email": "richard.okello39@gmail.com",
+      "phone": "+256 773 4367",
+      "dob": "2005-04-12",
+      "district": "Apac",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=40"
+    },
+    {
+      "id": "P40",
+      "name": "Diana Nafuna",
+      "email": "diana.nafuna40@gmail.com",
+      "phone": "+256 774 8020",
+      "dob": "1996-05-13",
+      "district": "Dokolo",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=41"
+    },
+    {
+      "id": "P41",
+      "name": "Michael Aciro",
+      "email": "michael.aciro41@gmail.com",
+      "phone": "+256 775 1773",
+      "dob": "1997-06-14",
+      "district": "Kole",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=42"
+    },
+    {
+      "id": "P42",
+      "name": "Alice Ogwal",
+      "email": "alice.ogwal42@gmail.com",
+      "phone": "+256 776 5426",
+      "dob": "1998-07-15",
+      "district": "Kwania",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=43"
+    },
+    {
+      "id": "P43",
+      "name": "George Adong",
+      "email": "george.adong43@gmail.com",
+      "phone": "+256 777 9179",
+      "dob": "1999-08-16",
+      "district": "Otuke",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=44"
+    },
+    {
+      "id": "P44",
+      "name": "Rose Ojok",
+      "email": "rose.ojok44@gmail.com",
+      "phone": "+256 778 2832",
+      "dob": "2000-09-17",
+      "district": "Oyam",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=45"
+    },
+    {
+      "id": "P45",
+      "name": "Andrew Achola",
+      "email": "andrew.achola45@gmail.com",
+      "phone": "+256 770 6585",
+      "dob": "2001-10-18",
+      "district": "Lira",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=46"
+    },
+    {
+      "id": "P46",
+      "name": "Jane Owor",
+      "email": "jane.owor46@gmail.com",
+      "phone": "+256 771 0238",
+      "dob": "2002-11-19",
+      "district": "Alebtong",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=47"
+    },
+    {
+      "id": "P47",
+      "name": "Paul Achieng",
+      "email": "paul.achieng47@gmail.com",
+      "phone": "+256 772 3991",
+      "dob": "2003-12-20",
+      "district": "Amolatar",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=48"
+    },
+    {
+      "id": "P48",
+      "name": "Esther Akello",
+      "email": "esther.akello48@gmail.com",
+      "phone": "+256 773 7644",
+      "dob": "2004-01-21",
+      "district": "Apac",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=49"
+    },
+    {
+      "id": "P49",
+      "name": "Stephen Okello",
+      "email": "stephen.okello49@gmail.com",
+      "phone": "+256 774 1397",
+      "dob": "2005-02-22",
+      "district": "Dokolo",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=50"
+    },
+    {
+      "id": "P50",
+      "name": "Sarah Nafuna",
+      "email": "sarah.nafuna50@gmail.com",
+      "phone": "+256 775 5050",
+      "dob": "1996-03-23",
+      "district": "Kole",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=51"
+    },
+    {
+      "id": "P51",
+      "name": "Grace Aciro",
+      "email": "grace.aciro51@gmail.com",
+      "phone": "+256 776 8703",
+      "dob": "1997-04-24",
+      "district": "Kwania",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=52"
+    },
+    {
+      "id": "P52",
+      "name": "Daniel Ogwal",
+      "email": "daniel.ogwal52@gmail.com",
+      "phone": "+256 777 2456",
+      "dob": "1998-05-25",
+      "district": "Otuke",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=53"
+    },
+    {
+      "id": "P53",
+      "name": "Joyce Adong",
+      "email": "joyce.adong53@gmail.com",
+      "phone": "+256 778 6109",
+      "dob": "1999-06-26",
+      "district": "Oyam",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=54"
+    },
+    {
+      "id": "P54",
+      "name": "Emmanuel Ojok",
+      "email": "emmanuel.ojok54@gmail.com",
+      "phone": "+256 770 9862",
+      "dob": "2000-07-27",
+      "district": "Lira",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=55"
+    },
+    {
+      "id": "P55",
+      "name": "Patricia Achola",
+      "email": "patricia.achola55@gmail.com",
+      "phone": "+256 771 3515",
+      "dob": "2001-08-28",
+      "district": "Alebtong",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=56"
+    },
+    {
+      "id": "P56",
+      "name": "Robert Owor",
+      "email": "robert.owor56@gmail.com",
+      "phone": "+256 772 7268",
+      "dob": "2002-09-01",
+      "district": "Amolatar",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=57"
+    },
+    {
+      "id": "P57",
+      "name": "Betty Achieng",
+      "email": "betty.achieng57@gmail.com",
+      "phone": "+256 773 0921",
+      "dob": "2003-10-02",
+      "district": "Apac",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=58"
+    },
+    {
+      "id": "P58",
+      "name": "Charles Akello",
+      "email": "charles.akello58@gmail.com",
+      "phone": "+256 774 4674",
+      "dob": "2004-11-03",
+      "district": "Dokolo",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=59"
+    },
+    {
+      "id": "P59",
+      "name": "Winnie Okello",
+      "email": "winnie.okello59@gmail.com",
+      "phone": "+256 775 8327",
+      "dob": "2005-12-04",
+      "district": "Kole",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=60"
+    },
+    {
+      "id": "P60",
+      "name": "Immaculate Nafuna",
+      "email": "immaculate.nafuna60@gmail.com",
+      "phone": "+256 776 2080",
+      "dob": "1996-01-05",
+      "district": "Kwania",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=61"
+    },
+    {
+      "id": "P61",
+      "name": "Milton Aciro",
+      "email": "milton.aciro61@gmail.com",
+      "phone": "+256 777 5733",
+      "dob": "1997-02-06",
+      "district": "Otuke",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=62"
+    },
+    {
+      "id": "P62",
+      "name": "Sedrick Ogwal",
+      "email": "sedrick.ogwal62@gmail.com",
+      "phone": "+256 778 9486",
+      "dob": "1998-03-07",
+      "district": "Oyam",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=63"
+    },
+    {
+      "id": "P63",
+      "name": "Peter Adong",
+      "email": "peter.adong63@gmail.com",
+      "phone": "+256 770 3139",
+      "dob": "1999-04-08",
+      "district": "Lira",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=64"
+    },
+    {
+      "id": "P64",
+      "name": "Mary Ojok",
+      "email": "mary.ojok64@gmail.com",
+      "phone": "+256 771 6892",
+      "dob": "2000-05-09",
+      "district": "Alebtong",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=65"
+    },
+    {
+      "id": "P65",
+      "name": "James Achola",
+      "email": "james.achola65@gmail.com",
+      "phone": "+256 772 0545",
+      "dob": "2001-06-10",
+      "district": "Amolatar",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=66"
+    },
+    {
+      "id": "P66",
+      "name": "Susan Owor",
+      "email": "susan.owor66@gmail.com",
+      "phone": "+256 773 4298",
+      "dob": "2002-07-11",
+      "district": "Apac",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=67"
+    },
+    {
+      "id": "P67",
+      "name": "David Achieng",
+      "email": "david.achieng67@gmail.com",
+      "phone": "+256 774 7951",
+      "dob": "2003-08-12",
+      "district": "Dokolo",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=68"
+    },
+    {
+      "id": "P68",
+      "name": "Ruth Akello",
+      "email": "ruth.akello68@gmail.com",
+      "phone": "+256 775 1604",
+      "dob": "2004-09-13",
+      "district": "Kole",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=69"
+    },
+    {
+      "id": "P69",
+      "name": "John Okello",
+      "email": "john.okello69@gmail.com",
+      "phone": "+256 776 5357",
+      "dob": "2005-10-14",
+      "district": "Kwania",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=70"
+    },
+    {
+      "id": "P70",
+      "name": "Christine Nafuna",
+      "email": "christine.nafuna70@gmail.com",
+      "phone": "+256 777 9010",
+      "dob": "1996-11-15",
+      "district": "Otuke",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+      "id": "P71",
+      "name": "Moses Aciro",
+      "email": "moses.aciro71@gmail.com",
+      "phone": "+256 778 2763",
+      "dob": "1997-12-16",
+      "district": "Oyam",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": "P72",
+      "name": "Florence Ogwal",
+      "email": "florence.ogwal72@gmail.com",
+      "phone": "+256 770 6416",
+      "dob": "1998-01-17",
+      "district": "Lira",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": "P73",
+      "name": "Isaac Adong",
+      "email": "isaac.adong73@gmail.com",
+      "phone": "+256 771 0169",
+      "dob": "1999-02-18",
+      "district": "Alebtong",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=4"
+    },
+    {
+      "id": "P74",
+      "name": "Agnes Ojok",
+      "email": "agnes.ojok74@gmail.com",
+      "phone": "+256 772 3822",
+      "dob": "2000-03-19",
+      "district": "Amolatar",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": "P75",
+      "name": "Vincent Achola",
+      "email": "vincent.achola75@gmail.com",
+      "phone": "+256 773 7575",
+      "dob": "2001-04-20",
+      "district": "Apac",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=6"
+    },
+    {
+      "id": "P76",
+      "name": "Harriet Owor",
+      "email": "harriet.owor76@gmail.com",
+      "phone": "+256 774 1228",
+      "dob": "2002-05-21",
+      "district": "Dokolo",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=7"
+    },
+    {
+      "id": "P77",
+      "name": "Denis Achieng",
+      "email": "denis.achieng77@gmail.com",
+      "phone": "+256 775 4981",
+      "dob": "2003-06-22",
+      "district": "Kole",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=8"
+    },
+    {
+      "id": "P78",
+      "name": "Irene Akello",
+      "email": "irene.akello78@gmail.com",
+      "phone": "+256 776 8634",
+      "dob": "2004-07-23",
+      "district": "Kwania",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=9"
+    },
+    {
+      "id": "P79",
+      "name": "Geoffrey Okello",
+      "email": "geoffrey.okello79@gmail.com",
+      "phone": "+256 777 2387",
+      "dob": "2005-08-24",
+      "district": "Otuke",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=10"
+    },
+    {
+      "id": "P80",
+      "name": "Beatrice Nafuna",
+      "email": "beatrice.nafuna80@gmail.com",
+      "phone": "+256 778 6040",
+      "dob": "1996-09-25",
+      "district": "Oyam",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=11"
+    },
+    {
+      "id": "P81",
+      "name": "Simon Aciro",
+      "email": "simon.aciro81@gmail.com",
+      "phone": "+256 770 9793",
+      "dob": "1997-10-26",
+      "district": "Lira",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=12"
+    },
+    {
+      "id": "P82",
+      "name": "Josephine Ogwal",
+      "email": "josephine.ogwal82@gmail.com",
+      "phone": "+256 771 3446",
+      "dob": "1998-11-27",
+      "district": "Alebtong",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=13"
+    },
+    {
+      "id": "P83",
+      "name": "Fred Adong",
+      "email": "fred.adong83@gmail.com",
+      "phone": "+256 772 7199",
+      "dob": "1999-12-28",
+      "district": "Amolatar",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=14"
+    },
+    {
+      "id": "P84",
+      "name": "Judith Ojok",
+      "email": "judith.ojok84@gmail.com",
+      "phone": "+256 773 0852",
+      "dob": "2000-01-01",
+      "district": "Apac",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=15"
+    },
+    {
+      "id": "P85",
+      "name": "Tom Achola",
+      "email": "tom.achola85@gmail.com",
+      "phone": "+256 774 4505",
+      "dob": "2001-02-02",
+      "district": "Dokolo",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=16"
+    },
+    {
+      "id": "P86",
+      "name": "Night Owor",
+      "email": "night.owor86@gmail.com",
+      "phone": "+256 775 8258",
+      "dob": "2002-03-03",
+      "district": "Kole",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=17"
+    },
+    {
+      "id": "P87",
+      "name": "Alfred Achieng",
+      "email": "alfred.achieng87@gmail.com",
+      "phone": "+256 776 1911",
+      "dob": "2003-04-04",
+      "district": "Kwania",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=18"
+    },
+    {
+      "id": "P88",
+      "name": "Sylvia Akello",
+      "email": "sylvia.akello88@gmail.com",
+      "phone": "+256 777 5664",
+      "dob": "2004-05-05",
+      "district": "Otuke",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=19"
+    },
+    {
+      "id": "P89",
+      "name": "Richard Okello",
+      "email": "richard.okello89@gmail.com",
+      "phone": "+256 778 9317",
+      "dob": "2005-06-06",
+      "district": "Oyam",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=20"
+    },
+    {
+      "id": "P90",
+      "name": "Diana Nafuna",
+      "email": "diana.nafuna90@gmail.com",
+      "phone": "+256 770 3070",
+      "dob": "1996-07-07",
+      "district": "Lira",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=21"
+    },
+    {
+      "id": "P91",
+      "name": "Michael Aciro",
+      "email": "michael.aciro91@gmail.com",
+      "phone": "+256 771 6723",
+      "dob": "1997-08-08",
+      "district": "Alebtong",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=22"
+    },
+    {
+      "id": "P92",
+      "name": "Alice Ogwal",
+      "email": "alice.ogwal92@gmail.com",
+      "phone": "+256 772 0476",
+      "dob": "1998-09-09",
+      "district": "Amolatar",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=23"
+    },
+    {
+      "id": "P93",
+      "name": "George Adong",
+      "email": "george.adong93@gmail.com",
+      "phone": "+256 773 4129",
+      "dob": "1999-10-10",
+      "district": "Apac",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=24"
+    },
+    {
+      "id": "P94",
+      "name": "Rose Ojok",
+      "email": "rose.ojok94@gmail.com",
+      "phone": "+256 774 7882",
+      "dob": "2000-11-11",
+      "district": "Dokolo",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=25"
+    },
+    {
+      "id": "P95",
+      "name": "Andrew Achola",
+      "email": "andrew.achola95@gmail.com",
+      "phone": "+256 775 1535",
+      "dob": "2001-12-12",
+      "district": "Kole",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=26"
+    },
+    {
+      "id": "P96",
+      "name": "Jane Owor",
+      "email": "jane.owor96@gmail.com",
+      "phone": "+256 776 5288",
+      "dob": "2002-01-13",
+      "district": "Kwania",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=27"
+    },
+    {
+      "id": "P97",
+      "name": "Paul Achieng",
+      "email": "paul.achieng97@gmail.com",
+      "phone": "+256 777 8941",
+      "dob": "2003-02-14",
+      "district": "Otuke",
+      "pillar": "ICT & Innovation",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=28"
+    },
+    {
+      "id": "P98",
+      "name": "Esther Akello",
+      "email": "esther.akello98@gmail.com",
+      "phone": "+256 778 2694",
+      "dob": "2004-03-15",
+      "district": "Oyam",
+      "pillar": "Personal Growth",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=29"
+    },
+    {
+      "id": "P99",
+      "name": "Stephen Okello",
+      "email": "stephen.okello99@gmail.com",
+      "phone": "+256 770 6347",
+      "dob": "2005-04-16",
+      "district": "Lira",
+      "pillar": "Entrepreneurship",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=30"
+    },
+    {
+      "id": "P100",
+      "name": "Sarah Nafuna",
+      "email": "sarah.nafuna100@gmail.com",
+      "phone": "+256 771 0000",
+      "dob": "1996-05-17",
+      "district": "Alebtong",
+      "pillar": "Leadership",
+      "status": "Active",
+      "photo": "https://i.pravatar.cc/150?img=31"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "S1",
+      "title": "Program Orientation & Launch",
+      "pillar": "Leadership",
+      "type": "Physical",
+      "venue": "Lira City Hall",
+      "date": "2026-09-06",
+      "time": "09:00",
+      "facilitator": "Milton Joel"
+    },
+    {
+      "id": "S2",
+      "title": "Foundations of Leadership",
+      "pillar": "Leadership",
+      "type": "Virtual",
+      "venue": "Zoom",
+      "date": "2026-09-13",
+      "time": "14:00",
+      "facilitator": "Hon. Betty Amongi"
+    },
+    {
+      "id": "S3",
+      "title": "Digital Literacy & Tools",
+      "pillar": "ICT & Innovation",
+      "type": "Virtual",
+      "venue": "Zoom",
+      "date": "2026-09-27",
+      "time": "14:00",
+      "facilitator": "Sedrick Otolo"
+    },
+    {
+      "id": "S4",
+      "title": "ICT & Innovation Intensive",
+      "pillar": "ICT & Innovation",
+      "type": "Physical",
+      "venue": "Gulu Youth Centre",
+      "date": "2026-10-04",
+      "time": "09:00",
+      "facilitator": "Sedrick Otolo"
+    },
+    {
+      "id": "S5",
+      "title": "Digital Storytelling for Advocacy",
+      "pillar": "ICT & Innovation",
+      "type": "Virtual",
+      "venue": "Zoom",
+      "date": "2026-10-14",
+      "time": "14:00",
+      "facilitator": "Sedrick Otolo"
+    },
+    {
+      "id": "S6",
+      "title": "Business Model Canvas Workshop",
+      "pillar": "Entrepreneurship",
+      "type": "Physical",
+      "venue": "Gulu Youth Centre",
+      "date": "2026-10-18",
+      "time": "09:00",
+      "facilitator": "Grace Akello"
+    },
+    {
+      "id": "S7",
+      "title": "Personal Growth & Wellbeing",
+      "pillar": "Personal Growth",
+      "type": "Virtual",
+      "venue": "Zoom",
+      "date": "2026-10-25",
+      "time": "14:00",
+      "facilitator": "Daniel Okot"
+    },
+    {
+      "id": "S8",
+      "title": "Capstone Pitch Day",
+      "pillar": "Entrepreneurship",
+      "type": "Physical",
+      "venue": "Kampala Innovation Hub",
+      "date": "2026-11-01",
+      "time": "09:00",
+      "facilitator": "Grace Akello"
+    },
+    {
+      "id": "S9",
+      "title": "Final Mentorship Circle",
+      "pillar": "Personal Growth",
+      "type": "Virtual",
+      "venue": "Zoom",
+      "date": "2026-11-22",
+      "time": "14:00",
+      "facilitator": "Daniel Okot"
+    }
+  ],
+  "materials": [
+    {
+      "id": "M01",
+      "title": "Leadership Toolkit",
+      "type": "PDF",
+      "pillar": "Leadership",
+      "session": "S1",
+      "views": 60,
+      "downloads": 30
+    },
+    {
+      "id": "M02",
+      "title": "Public Speaking Masterclass",
+      "type": "Video",
+      "pillar": "Leadership",
+      "session": "S2",
+      "views": 73,
+      "downloads": 37
+    },
+    {
+      "id": "M03",
+      "title": "Ethical Decision-Making Notes",
+      "type": "Notes",
+      "pillar": "Leadership",
+      "session": "S2",
+      "views": 86,
+      "downloads": 44
+    },
+    {
+      "id": "M04",
+      "title": "Community Organizing Slides",
+      "type": "Presentation",
+      "pillar": "Leadership",
+      "session": "S1",
+      "views": 99,
+      "downloads": 51
+    },
+    {
+      "id": "M05",
+      "title": "Team Management Handbook",
+      "type": "PDF",
+      "pillar": "Leadership",
+      "session": "S2",
+      "views": 112,
+      "downloads": 58
+    },
+    {
+      "id": "M06",
+      "title": "Intro to Digital Tools",
+      "type": "Presentation",
+      "pillar": "ICT & Innovation",
+      "session": "S3",
+      "views": 125,
+      "downloads": 65
+    },
+    {
+      "id": "M07",
+      "title": "Storytelling Basics",
+      "type": "Video",
+      "pillar": "ICT & Innovation",
+      "session": "S5",
+      "views": 138,
+      "downloads": 72
+    },
+    {
+      "id": "M08",
+      "title": "Design Thinking Handbook",
+      "type": "PDF",
+      "pillar": "ICT & Innovation",
+      "session": "S4",
+      "views": 61,
+      "downloads": 79
+    },
+    {
+      "id": "M09",
+      "title": "Data Literacy Notes",
+      "type": "Notes",
+      "pillar": "ICT & Innovation",
+      "session": "S3",
+      "views": 74,
+      "downloads": 86
+    },
+    {
+      "id": "M10",
+      "title": "Intro to Canva & Editing",
+      "type": "Video",
+      "pillar": "ICT & Innovation",
+      "session": "S4",
+      "views": 87,
+      "downloads": 93
+    },
+    {
+      "id": "M11",
+      "title": "Pitch Deck Template",
+      "type": "Presentation",
+      "pillar": "Entrepreneurship",
+      "session": "S8",
+      "views": 100,
+      "downloads": 30
+    },
+    {
+      "id": "M12",
+      "title": "Business Model Canvas Guide",
+      "type": "Notes",
+      "pillar": "Entrepreneurship",
+      "session": "S6",
+      "views": 113,
+      "downloads": 37
+    },
+    {
+      "id": "M13",
+      "title": "Financial Literacy Basics",
+      "type": "PDF",
+      "pillar": "Entrepreneurship",
+      "session": "S6",
+      "views": 126,
+      "downloads": 44
+    },
+    {
+      "id": "M14",
+      "title": "Access to Seed Funding Guide",
+      "type": "PDF",
+      "pillar": "Entrepreneurship",
+      "session": "S8",
+      "views": 139,
+      "downloads": 51
+    },
+    {
+      "id": "M15",
+      "title": "Market Research Template",
+      "type": "Presentation",
+      "pillar": "Entrepreneurship",
+      "session": "S6",
+      "views": 62,
+      "downloads": 58
+    },
+    {
+      "id": "M16",
+      "title": "Emotional Intelligence Workbook",
+      "type": "PDF",
+      "pillar": "Personal Growth",
+      "session": "S7",
+      "views": 75,
+      "downloads": 65
+    },
+    {
+      "id": "M17",
+      "title": "Time Management Notes",
+      "type": "Notes",
+      "pillar": "Personal Growth",
+      "session": "S7",
+      "views": 88,
+      "downloads": 72
+    },
+    {
+      "id": "M18",
+      "title": "Wellbeing & Resilience Video",
+      "type": "Video",
+      "pillar": "Personal Growth",
+      "session": "S9",
+      "views": 101,
+      "downloads": 79
+    },
+    {
+      "id": "M19",
+      "title": "Goal Setting Framework",
+      "type": "Presentation",
+      "pillar": "Personal Growth",
+      "session": "S7",
+      "views": 114,
+      "downloads": 86
+    },
+    {
+      "id": "M20",
+      "title": "Mentorship Circle Reflection Guide",
+      "type": "Notes",
+      "pillar": "Personal Growth",
+      "session": "S9",
+      "views": 127,
+      "downloads": 93
+    }
+  ],
+  "assessments": [
+    {
+      "id": "A1",
+      "title": "Test 1: Leadership Fundamentals Quiz",
+      "pillar": "Leadership",
+      "type": "Multiple Choice",
+      "dueDate": "2026-09-20",
+      "timeLimit": 30,
+      "status": "Graded"
+    },
+    {
+      "id": "A2",
+      "title": "Test 2: ICT Literacy Assessment",
+      "pillar": "ICT & Innovation",
+      "type": "Multiple Choice",
+      "dueDate": "2026-10-04",
+      "timeLimit": 40,
+      "status": "Graded"
+    },
+    {
+      "id": "A3",
+      "title": "Test 3: Personal Growth Reflection",
+      "pillar": "Personal Growth",
+      "type": "Essay",
+      "dueDate": "2026-10-18",
+      "timeLimit": 45,
+      "status": "Graded"
+    },
+    {
+      "id": "A4",
+      "title": "Test 4: Entrepreneurship Case Study",
+      "pillar": "Entrepreneurship",
+      "type": "Essay",
+      "dueDate": "2026-11-01",
+      "timeLimit": 60,
+      "status": "Grading"
+    },
+    {
+      "id": "A5",
+      "title": "Test 5: Mid-Program Comprehensive Test",
+      "pillar": "All Pillars",
+      "type": "Mixed",
+      "dueDate": "2026-11-08",
+      "timeLimit": 60,
+      "status": "Open"
+    },
+    {
+      "id": "A6",
+      "title": "Test 6: Final Capstone Assessment",
+      "pillar": "All Pillars",
+      "type": "Mixed",
+      "dueDate": "2026-11-22",
+      "timeLimit": 90,
+      "status": "Locked"
+    }
+  ],
+  "mentors": [
+    {
+      "name": "Milton Joel",
+      "role": "Lead Facilitator",
+      "pillar": "Leadership"
+    },
+    {
+      "name": "Hon. Betty Amongi",
+      "role": "Lead Facilitator",
+      "pillar": "Leadership"
+    },
+    {
+      "name": "Sedrick Otolo",
+      "role": "Lead Facilitator",
+      "pillar": "ICT & Innovation"
+    },
+    {
+      "name": "Grace Akello",
+      "role": "Lead Facilitator",
+      "pillar": "Entrepreneurship"
+    },
+    {
+      "name": "Daniel Okot",
+      "role": "Guest Speaker",
+      "pillar": "Personal Growth"
+    },
+    {
+      "name": "Patricia Amuge",
+      "role": "Guest Speaker",
+      "pillar": "Entrepreneurship"
+    },
+    {
+      "name": "Robert Ocen",
+      "role": "Guest Speaker",
+      "pillar": "Leadership"
+    },
+    {
+      "name": "Betty Nafuna",
+      "role": "Guest Speaker",
+      "pillar": "ICT & Innovation"
+    },
+    {
+      "name": "Charles Ekwang",
+      "role": "Guest Speaker",
+      "pillar": "Personal Growth"
+    },
+    {
+      "name": "Winnie Aol",
+      "role": "Guest Speaker",
+      "pillar": "Leadership"
+    },
+    {
+      "name": "Immaculate Aciro",
+      "role": "Virtual Facilitator",
+      "pillar": "ICT & Innovation"
+    },
+    {
+      "name": "Peter Ogwal",
+      "role": "Virtual Facilitator",
+      "pillar": "Leadership"
+    },
+    {
+      "name": "Mary Apio",
+      "role": "Virtual Facilitator",
+      "pillar": "Entrepreneurship"
+    },
+    {
+      "name": "James Okwir",
+      "role": "Virtual Facilitator",
+      "pillar": "Personal Growth"
+    },
+    {
+      "name": "Susan Adong",
+      "role": "Virtual Facilitator",
+      "pillar": "ICT & Innovation"
+    },
+    {
+      "name": "David Otim",
+      "role": "Virtual Facilitator",
+      "pillar": "Leadership"
+    },
+    {
+      "name": "Ruth Akullo",
+      "role": "Online Mentor",
+      "pillar": "Entrepreneurship"
+    },
+    {
+      "name": "John Ojok",
+      "role": "Online Mentor",
+      "pillar": "Personal Growth"
+    },
+    {
+      "name": "Christine Aloyo",
+      "role": "Online Mentor",
+      "pillar": "ICT & Innovation"
+    },
+    {
+      "name": "Moses Odongo",
+      "role": "Peer Mentor",
+      "pillar": "Leadership"
+    }
+  ],
+  "announcements": [
+    {
+      "title": "Graduation date confirmed",
+      "body": "The Cohort 2026 graduation ceremony is confirmed for 19th December 2026 in Lira City.",
+      "audience": "All Participants",
+      "date": "2026-10-09"
+    },
+    {
+      "title": "Virtual session moved to 2:00 PM",
+      "body": "Digital Storytelling for Advocacy has been rescheduled to 14 October 2026, 2:00 PM.",
+      "audience": "Participants, Mentors",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "Test 4 results are out",
+      "body": "Entrepreneurship Case Study grading is nearly complete. Check My Results for feedback.",
+      "audience": "All Participants",
+      "date": "2026-10-12"
+    },
+    {
+      "title": "Capstone Pitch Day details coming soon",
+      "body": "Venue and judging panel details for the Kampala pitch day will be published shortly.",
+      "audience": "All Participants",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "Applications for Cohort 2026 close soon",
+      "body": "Only a few slots remain in the 100-participant cohort. Apply now.",
+      "audience": "General Public",
+      "date": "2026-08-15"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dashboard | Foundation CMS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="../img/baf.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link href="../css/theme.css" rel="stylesheet">
+<link href="../css/theme-responsive.css" rel="stylesheet">
+</head>
+<body>
+<div class="bf-app">
+    <div class="bf-sidebar-backdrop"></div>
+    <aside class="bf-sidebar">
+        <div class="sidebar-brand"><span class="brand-mark"><img src="../img/baf.png" style="width:22px;height:22px;object-fit:contain;" alt=""></span>Foundation <span class="text-bf-accent">CMS</span></div>
+        <div class="nav-section-label">Content Menu</div>
+        <nav class="nav flex-column">
+            <a class="nav-link active" href="dashboard.html"><i class="bi bi-grid-1x2-fill"></i> Dashboard</a>
+            <a class="nav-link" href="posts.html"><i class="bi bi-file-earmark-post-fill"></i> Blog Posts</a>
+            <a class="nav-link" href="gallery.html"><i class="bi bi-images"></i> Gallery</a>
+            <a class="nav-link" href="comments.html"><i class="bi bi-chat-square-text-fill"></i> Comments <span class="badge bg-danger rounded-pill ms-auto">3</span></a>
+            <a class="nav-link" href="messages.html"><i class="bi bi-envelope-fill"></i> Messages <span class="badge bg-danger rounded-pill ms-auto">5</span></a>
+            <a class="nav-link" href="pages.html"><i class="bi bi-file-earmark-richtext-fill"></i> Site Content</a>
+        </nav>
+        <div class="sidebar-footer"><a class="nav-link px-0" href="login.html"><i class="bi bi-box-arrow-right"></i> Logout</a></div>
+    </aside>
+
+    <div class="bf-main" style="flex:1; min-width:0; display:flex; flex-direction:column;">
+        <header class="bf-topbar" style="background:#fff; border-bottom:1px solid var(--bf-border); padding:0.9rem 1.75rem; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:1020;">
+            <div class="d-flex align-items-center">
+                <button class="sidebar-toggle" data-sidebar-toggle style="display:none;"><i class="bi bi-list fs-4"></i></button>
+                <h5 class="mb-0 font-heading">Dashboard</h5>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+                <button class="bf-icon-btn"><i class="bi bi-bell"></i><span class="dot"></span></button>
+                <div class="dropdown">
+                    <a class="user-chip dropdown-toggle text-decoration-none text-dark" href="#" data-bs-toggle="dropdown">
+                        <img src="https://i.pravatar.cc/60?img=68" alt="Admin">
+                        <span class="d-none d-md-inline"><span class="d-block fw-semibold small">Emmanuel Okello</span><span class="d-block text-muted" style="font-size:0.72rem;">Content Manager</span></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="login.html"><i class="bi bi-box-arrow-right me-2"></i>Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main class="bf-content" style="padding:1.75rem; flex:1;">
+            <div class="bf-card p-4 mb-4" style="background:linear-gradient(120deg, var(--bf-primary), var(--bf-secondary)); color:#fff;">
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+                    <div>
+                        <h4 class="text-white mb-1">Welcome back, Emmanuel</h4>
+                        <p class="text-white-50 mb-0">3 comments and 5 messages are waiting for your review.</p>
+                    </div>
+                    <a href="post-edit.html" class="btn btn-bf-accent">New Blog Post</a>
+                </div>
+            </div>
+
+            <div class="row g-3 mb-4">
+                <div class="col-6 col-lg-3">
+                    <div class="bf-stat"><div class="stat-icon" style="background:var(--bf-primary);"><i class="bi bi-file-earmark-post-fill"></i></div><div><div class="stat-value">9</div><div class="stat-label">Published Posts</div></div></div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="bf-stat"><div class="stat-icon" style="background:var(--bf-secondary);"><i class="bi bi-images"></i></div><div><div class="stat-value">20</div><div class="stat-label">Gallery Photos</div></div></div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="bf-stat"><div class="stat-icon" style="background:var(--bf-warning);"><i class="bi bi-chat-square-text-fill"></i></div><div><div class="stat-value">3</div><div class="stat-label">Pending Comments</div></div></div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="bf-stat"><div class="stat-icon" style="background:var(--bf-success);"><i class="bi bi-envelope-fill"></i></div><div><div class="stat-value">5</div><div class="stat-label">New Messages</div></div></div>
+                </div>
+            </div>
+
+            <div class="row g-4 mb-4">
+                <div class="col-lg-7">
+                    <div class="bf-card p-4 h-100">
+                        <h6 class="mb-3">Site Visits (Last 9 Weeks)</h6>
+                        <canvas id="visitsChart" height="140"></canvas>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="bf-card p-4 h-100">
+                        <h6 class="mb-3">Posts by Category</h6>
+                        <canvas id="categoryChart" height="160"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-7">
+                    <div class="bf-card p-4 h-100">
+                        <div class="d-flex justify-content-between align-items-center mb-3"><h6 class="mb-0">Recent Blog Posts</h6><a href="posts.html" class="small">Manage All</a></div>
+                        <div class="table-responsive">
+                            <table class="table bf-table align-middle mb-0">
+                                <thead><tr><th>Title</th><th>Category</th><th>Status</th><th>Date</th></tr></thead>
+                                <tbody>
+                                    <tr><td>Hon. Betty Amongi Meets Women Leaders in Lira</td><td><span class="bf-badge bf-badge-muted">Women &amp; Girls</span></td><td><span class="bf-badge bf-badge-active">Published</span></td><td>12 Jan 2026</td></tr>
+                                    <tr><td>Inside the MentorMe 360 Planning Retreat</td><td><span class="bf-badge bf-badge-muted">MentorMe 360</span></td><td><span class="bf-badge bf-badge-active">Published</span></td><td>28 Dec 2025</td></tr>
+                                    <tr><td>Foundation Team Convenes to Plan 2026 Programs</td><td><span class="bf-badge bf-badge-muted">Community</span></td><td><span class="bf-badge bf-badge-active">Published</span></td><td>15 Dec 2025</td></tr>
+                                    <tr><td>2026 Scholarship Applications &mdash; Draft</td><td><span class="bf-badge bf-badge-muted">Education</span></td><td><span class="bf-badge bf-badge-pending">Draft</span></td><td>&mdash;</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="bf-card p-4 h-100">
+                        <h6 class="mb-3">Recent Activity</h6>
+                        <div class="d-flex gap-3 mb-3">
+                            <div class="stat-icon" style="width:38px;height:38px;font-size:1rem;background:var(--bf-warning);flex-shrink:0;"><i class="bi bi-chat-dots-fill"></i></div>
+                            <div><strong class="d-block small">New comment on "Hon. Betty Amongi Meets Women Leaders"</strong><small class="text-muted">From Sarah Adoch &middot; 1 hour ago</small></div>
+                        </div>
+                        <div class="d-flex gap-3 mb-3">
+                            <div class="stat-icon" style="width:38px;height:38px;font-size:1rem;background:var(--bf-success);flex-shrink:0;"><i class="bi bi-envelope-fill"></i></div>
+                            <div><strong class="d-block small">New contact message received</strong><small class="text-muted">From James Okello &middot; 3 hours ago</small></div>
+                        </div>
+                        <div class="d-flex gap-3">
+                            <div class="stat-icon" style="width:38px;height:38px;font-size:1rem;background:var(--bf-secondary);flex-shrink:0;"><i class="bi bi-images"></i></div>
+                            <div><strong class="d-block small">12 photos uploaded to Gallery</strong><small class="text-muted">By Emmanuel Okello &middot; Yesterday</small></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="../js/site.js"></script>
+<script>
+Chart.defaults.font.family = "'Open Sans', sans-serif";
+new Chart(document.getElementById("visitsChart"), {
+    type: "line",
+    data: {
+        labels: ["W1","W2","W3","W4","W5","W6","W7","W8","W9"],
+        datasets: [{ label: "Visits", data: [420,510,480,600,650,590,720,780,810], borderColor: "#2e86c1", backgroundColor: "rgba(46,134,193,0.12)", fill: true, tension: 0.4 }]
+    },
+    options: { plugins: { legend: { display: false } } }
+});
+new Chart(document.getElementById("categoryChart"), {
+    type: "doughnut",
+    data: {
+        labels: ["Women & Girls","Community","MentorMe 360","ICT & Innovation","Entrepreneurship","Leadership"],
+        datasets: [{ data: [2,2,1,1,2,1], backgroundColor: ["#1a5276","#2e86c1","#d4ac0d","#28b463","#f39c12","#e74c3c"] }]
+    },
+    options: { plugins: { legend: { position: "bottom", labels: { boxWidth: 10, font: { size: 10 } } } } }
+});
+</script>
+</body>
+</html>

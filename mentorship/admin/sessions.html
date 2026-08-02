@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Session Management | Admin | MentorMe 360</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link href="../assets/css/style.css" rel="stylesheet">
+<link href="../assets/css/responsive.css" rel="stylesheet">
+</head>
+<body>
+<div class="mm-app">
+    <div class="mm-sidebar-backdrop"></div>
+    <aside class="mm-sidebar">
+        <div class="sidebar-brand"><span class="brand-mark"><i class="bi bi-mortarboard-fill"></i></span>MentorMe <span class="text-mm-accent">360</span></div>
+        <div class="nav-section-label">Admin Menu</div>
+        <nav class="nav flex-column">
+            <a class="nav-link" href="dashboard.html"><i class="bi bi-grid-1x2-fill"></i> Dashboard</a>
+            <a class="nav-link" href="users.html"><i class="bi bi-people-fill"></i> Users</a>
+            <a class="nav-link" href="applications.html"><i class="bi bi-file-earmark-person-fill"></i> Applications</a>
+            <a class="nav-link active" href="sessions.html"><i class="bi bi-calendar2-week-fill"></i> Sessions</a>
+            <a class="nav-link" href="attendance.html"><i class="bi bi-clipboard2-check"></i> Attendance</a>
+            <a class="nav-link" href="content.html"><i class="bi bi-folder2-open"></i> Content</a>
+            <a class="nav-link" href="assessments.html"><i class="bi bi-clipboard2-data-fill"></i> Assessments</a>
+            <a class="nav-link" href="reports.html"><i class="bi bi-bar-chart-line-fill"></i> Reports</a>
+            <a class="nav-link" href="announcements.html"><i class="bi bi-megaphone-fill"></i> Announcements</a>
+        </nav>
+        <div class="sidebar-footer"><a class="nav-link px-0" href="../login.html"><i class="bi bi-box-arrow-right"></i> Logout</a></div>
+    </aside>
+
+    <div class="mm-main">
+        <header class="mm-topbar">
+            <div class="d-flex align-items-center">
+                <button class="sidebar-toggle" data-sidebar-toggle><i class="bi bi-list fs-4"></i></button>
+                <h5 class="mb-0 font-heading">Session Management</h5>
+            </div>
+            <button class="btn btn-mm-primary btn-sm" data-bs-toggle="modal" data-bs-target="#createSessionModal"><i class="bi bi-plus-lg me-1"></i>Create Session</button>
+        </header>
+
+        <main class="mm-content">
+            <div class="mm-card p-4">
+                <div class="table-responsive">
+                    <table class="table mm-table align-middle">
+                        <thead><tr><th>Session</th><th>Pillar</th><th>Date</th><th>Type / Venue</th><th>Facilitator</th><th>Actions</th></tr></thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Program Orientation &amp; Launch</strong></td><td><span class="mm-badge mm-badge-muted">Leadership</span></td><td>6 Sep 2026, 9:00 AM</td>
+                                <td><span class="mm-badge mm-badge-physical">Lira</span></td><td>Milton Joel</td>
+                                <td><button class="btn btn-sm btn-outline-mm-primary" title="Edit"><i class="bi bi-pencil"></i></button> <a href="attendance.html" class="btn btn-sm btn-outline-secondary" title="Attendance"><i class="bi bi-clipboard2-check"></i></a> <button class="btn btn-sm btn-outline-mm-primary" title="Reminder"><i class="bi bi-bell"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Foundations of Leadership</strong></td><td><span class="mm-badge mm-badge-muted">Leadership</span></td><td>13 Sep 2026, 2:00 PM</td>
+                                <td><span class="mm-badge mm-badge-virtual">Virtual</span></td><td>Hon. Betty Amongi</td>
+                                <td><button class="btn btn-sm btn-outline-mm-primary" title="Edit"><i class="bi bi-pencil"></i></button> <a href="attendance.html" class="btn btn-sm btn-outline-secondary" title="Attendance"><i class="bi bi-clipboard2-check"></i></a> <button class="btn btn-sm btn-outline-mm-primary" title="Reminder"><i class="bi bi-bell"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Digital Literacy &amp; Tools</strong></td><td><span class="mm-badge mm-badge-muted">ICT &amp; Innovation</span></td><td>27 Sep 2026, 2:00 PM</td>
+                                <td><span class="mm-badge mm-badge-virtual">Virtual</span></td><td>Sedrick Otolo</td>
+                                <td><button class="btn btn-sm btn-outline-mm-primary" title="Edit"><i class="bi bi-pencil"></i></button> <a href="attendance.html" class="btn btn-sm btn-outline-secondary" title="Attendance"><i class="bi bi-clipboard2-check"></i></a> <button class="btn btn-sm btn-outline-mm-primary" title="Reminder"><i class="bi bi-bell"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td><strong>ICT &amp; Innovation Intensive</strong></td><td><span class="mm-badge mm-badge-muted">ICT &amp; Innovation</span></td><td>4 Oct 2026, 9:00 AM</td>
+                                <td><span class="mm-badge mm-badge-physical">Gulu</span></td><td>Sedrick Otolo</td>
+                                <td><button class="btn btn-sm btn-outline-mm-primary" title="Edit"><i class="bi bi-pencil"></i></button> <a href="attendance.html" class="btn btn-sm btn-outline-secondary" title="Attendance"><i class="bi bi-clipboard2-check"></i></a> <button class="btn btn-sm btn-outline-mm-primary" title="Reminder"><i class="bi bi-bell"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Digital Storytelling for Advocacy</strong></td><td><span class="mm-badge mm-badge-muted">ICT &amp; Innovation</span></td><td>14 Oct 2026, 2:00 PM</td>
+                                <td><span class="mm-badge mm-badge-virtual">Virtual</span></td><td>Sedrick Otolo</td>
+                                <td><button class="btn btn-sm btn-outline-mm-primary" title="Edit"><i class="bi bi-pencil"></i></button> <a href="attendance.html" class="btn btn-sm btn-outline-secondary" title="Attendance"><i class="bi bi-clipboard2-check"></i></a> <button class="btn btn-sm btn-outline-mm-primary" title="Reminder"><i class="bi bi-bell"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Business Model Canvas Workshop</strong></td><td><span class="mm-badge mm-badge-muted">Entrepreneurship</span></td><td>18 Oct 2026, 9:00 AM</td>
+                                <td><span class="mm-badge mm-badge-physical">Gulu</span></td><td>Grace Akello</td>
+                                <td><button class="btn btn-sm btn-outline-mm-primary" title="Edit"><i class="bi bi-pencil"></i></button> <a href="attendance.html" class="btn btn-sm btn-outline-secondary" title="Attendance"><i class="bi bi-clipboard2-check"></i></a> <button class="btn btn-sm btn-outline-mm-primary" title="Reminder"><i class="bi bi-bell"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Personal Growth &amp; Wellbeing</strong></td><td><span class="mm-badge mm-badge-muted">Personal Growth</span></td><td>25 Oct 2026, 2:00 PM</td>
+                                <td><span class="mm-badge mm-badge-virtual">Virtual</span></td><td>Daniel Okot</td>
+                                <td><button class="btn btn-sm btn-outline-mm-primary" title="Edit"><i class="bi bi-pencil"></i></button> <a href="attendance.html" class="btn btn-sm btn-outline-secondary" title="Attendance"><i class="bi bi-clipboard2-check"></i></a> <button class="btn btn-sm btn-outline-mm-primary" title="Reminder"><i class="bi bi-bell"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Capstone Pitch Day</strong></td><td><span class="mm-badge mm-badge-muted">Entrepreneurship</span></td><td>1 Nov 2026, 9:00 AM</td>
+                                <td><span class="mm-badge mm-badge-physical">Kampala</span></td><td>Grace Akello</td>
+                                <td><button class="btn btn-sm btn-outline-mm-primary" title="Edit"><i class="bi bi-pencil"></i></button> <a href="attendance.html" class="btn btn-sm btn-outline-secondary" title="Attendance"><i class="bi bi-clipboard2-check"></i></a> <button class="btn btn-sm btn-outline-mm-primary" title="Reminder"><i class="bi bi-bell"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Final Mentorship Circle</strong></td><td><span class="mm-badge mm-badge-muted">Personal Growth</span></td><td>22 Nov 2026, 2:00 PM</td>
+                                <td><span class="mm-badge mm-badge-virtual">Virtual</span></td><td>Daniel Okot</td>
+                                <td><button class="btn btn-sm btn-outline-mm-primary" title="Edit"><i class="bi bi-pencil"></i></button> <a href="attendance.html" class="btn btn-sm btn-outline-secondary" title="Attendance"><i class="bi bi-clipboard2-check"></i></a> <button class="btn btn-sm btn-outline-mm-primary" title="Reminder"><i class="bi bi-bell"></i></button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+<div class="modal fade" id="createSessionModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header"><h5 class="modal-title">Create New Session</h5><button class="btn-close" data-bs-dismiss="modal"></button></div>
+            <div class="modal-body">
+                <form class="row g-3">
+                    <div class="col-md-8"><label class="form-label">Session Title</label><input type="text" class="form-control"></div>
+                    <div class="col-md-4"><label class="form-label">Pillar</label><select class="form-select"><option>Leadership</option><option>ICT &amp; Innovation</option><option>Personal Growth</option><option>Entrepreneurship</option></select></div>
+                    <div class="col-md-4"><label class="form-label">Type</label><select class="form-select" id="sessTypeSelect"><option>Physical</option><option>Virtual</option></select></div>
+                    <div class="col-md-4"><label class="form-label">Date</label><input type="date" class="form-control"></div>
+                    <div class="col-md-4"><label class="form-label">Time</label><input type="time" class="form-control"></div>
+                    <div class="col-md-6"><label class="form-label">Venue (Physical) / Zoom Link (Virtual)</label><input type="text" class="form-control" placeholder="e.g. Lira City Hall, or https://zoom.us/j/..."></div>
+                    <div class="col-md-6"><label class="form-label">Facilitator</label><select class="form-select"><option>Milton Joel</option><option>Sedrick Otolo</option><option>Grace Akello</option><option>Daniel Okot</option><option>Hon. Betty Amongi</option></select></div>
+                </form>
+            </div>
+            <div class="modal-footer"><button class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button><button class="btn btn-mm-primary">Create Session</button></div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

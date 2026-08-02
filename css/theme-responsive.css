@@ -1,0 +1,99 @@
+/*******************************************************
+  Betty Amongi Foundation — Responsive Overrides
+  Breakpoints: 320px / 768px / 1024px / 1280px
+********************************************************/
+
+/* Dashboard shell: collapse sidebar to an off-canvas drawer below 1024px */
+@media (max-width: 1024px) {
+    .bf-sidebar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        margin-left: -264px;
+        box-shadow: var(--bf-shadow-lg);
+    }
+    .bf-sidebar.open { margin-left: 0; }
+    .bf-topbar .sidebar-toggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+        border-radius: 10px;
+        border: 1px solid var(--bf-border);
+        background: #fff;
+        margin-right: 0.75rem;
+    }
+    .bf-sidebar-backdrop {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(16, 42, 61, 0.45);
+        z-index: 1035;
+    }
+    .bf-sidebar-backdrop.show { display: block; }
+}
+
+@media (min-width: 1025px) {
+    .bf-topbar .sidebar-toggle { display: none !important; }
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .bf-hero { padding: 4.5rem 0 5.5rem; text-align: center; }
+    .bf-section { padding: 3.5rem 0; }
+    .bf-content { padding: 1.25rem; }
+    .bf-chat-list { width: 240px; }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .bf-hero { padding: 3.5rem 0 4.5rem; }
+    .bf-section { padding: 2.75rem 0; }
+    .bf-stat { flex-direction: column; text-align: center; }
+    .bf-topbar { padding: 0.75rem 1rem; }
+    .bf-content { padding: 1rem; }
+    .bf-chat-shell { flex-direction: column; height: auto; }
+    .bf-chat-list { width: 100%; max-height: 220px; border-right: 0; border-bottom: 1px solid var(--bf-border); }
+    .bf-chat-body { min-height: 320px; }
+    .bf-bubble { max-width: 85%; }
+    .bf-auth-card { padding: 1.75rem; }
+    .bf-timeline { padding-left: 2rem; }
+    .bf-timeline-item::before { left: -2rem; }
+}
+
+/* Small phones */
+@media (max-width: 320px) {
+    .bf-hero h1 { font-size: 1.6rem; }
+    .bf-auth-card { padding: 1.25rem; }
+    .btn { padding: 0.55rem 1.1rem; font-size: 0.9rem; }
+}
+
+/*******************************************************
+  Phone-friendly classes & tests
+  Many participants will join live sessions and take
+  tests on a phone, so touch targets and text stay
+  large and forms never trigger the iOS zoom-on-focus.
+********************************************************/
+@media (max-width: 768px) {
+    /* iOS zooms the page if a focused input's font is under 16px */
+    input, select, textarea { font-size: 16px !important; }
+
+    /* Comfortable tap targets */
+    .btn, .form-check-input, .nav-link, .dropdown-item { min-height: 44px; }
+    .form-check-input { width: 1.3em; height: 1.3em; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; }
+
+    /* Live session: video first, chat below, both full-width */
+    .bf-live-chat { height: 420px !important; margin-top: 1rem; }
+
+    /* Assessment timer moves above the title so nothing gets cramped */
+    .bf-topbar { flex-wrap: wrap; row-gap: 0.5rem; }
+
+    /* Full-width primary actions are easier to hit on a phone */
+    .bf-content .btn.btn-lg { width: 100%; }
+
+    /* Cards get a little breathing room instead of edge-to-edge */
+    .bf-card .card-body, .bf-card.p-4 { padding: 1.15rem !important; }
+}
+

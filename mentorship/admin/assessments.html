@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Assessment Management | Admin | MentorMe 360</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link href="../assets/css/style.css" rel="stylesheet">
+<link href="../assets/css/responsive.css" rel="stylesheet">
+</head>
+<body>
+<div class="mm-app">
+    <div class="mm-sidebar-backdrop"></div>
+    <aside class="mm-sidebar">
+        <div class="sidebar-brand"><span class="brand-mark"><i class="bi bi-mortarboard-fill"></i></span>MentorMe <span class="text-mm-accent">360</span></div>
+        <div class="nav-section-label">Admin Menu</div>
+        <nav class="nav flex-column">
+            <a class="nav-link" href="dashboard.html"><i class="bi bi-grid-1x2-fill"></i> Dashboard</a>
+            <a class="nav-link" href="users.html"><i class="bi bi-people-fill"></i> Users</a>
+            <a class="nav-link" href="applications.html"><i class="bi bi-file-earmark-person-fill"></i> Applications</a>
+            <a class="nav-link" href="sessions.html"><i class="bi bi-calendar2-week-fill"></i> Sessions</a>
+            <a class="nav-link" href="attendance.html"><i class="bi bi-clipboard2-check"></i> Attendance</a>
+            <a class="nav-link" href="content.html"><i class="bi bi-folder2-open"></i> Content</a>
+            <a class="nav-link active" href="assessments.html"><i class="bi bi-clipboard2-data-fill"></i> Assessments</a>
+            <a class="nav-link" href="reports.html"><i class="bi bi-bar-chart-line-fill"></i> Reports</a>
+            <a class="nav-link" href="announcements.html"><i class="bi bi-megaphone-fill"></i> Announcements</a>
+        </nav>
+        <div class="sidebar-footer"><a class="nav-link px-0" href="../login.html"><i class="bi bi-box-arrow-right"></i> Logout</a></div>
+    </aside>
+
+    <div class="mm-main">
+        <header class="mm-topbar">
+            <div class="d-flex align-items-center">
+                <button class="sidebar-toggle" data-sidebar-toggle><i class="bi bi-list fs-4"></i></button>
+                <h5 class="mb-0 font-heading">Assessment Management</h5>
+            </div>
+            <button class="btn btn-mm-primary btn-sm" data-bs-toggle="modal" data-bs-target="#createAssessModal"><i class="bi bi-plus-lg me-1"></i>Create Assessment</button>
+        </header>
+
+        <main class="mm-content">
+            <div class="row g-3 mb-4">
+                <div class="col-6 col-lg-3"><div class="mm-stat"><div class="stat-icon" style="background:var(--mm-primary);"><i class="bi bi-clipboard2-data"></i></div><div><div class="stat-value">6</div><div class="stat-label">Total Assessments</div></div></div></div>
+                <div class="col-6 col-lg-3"><div class="mm-stat"><div class="stat-icon" style="background:var(--mm-secondary);"><i class="bi bi-people"></i></div><div><div class="stat-value">100</div><div class="stat-label">Participants</div></div></div></div>
+                <div class="col-6 col-lg-3"><div class="mm-stat"><div class="stat-icon" style="background:var(--mm-success);"><i class="bi bi-check2-circle"></i></div><div><div class="stat-value">85%</div><div class="stat-label">Completion Rate</div></div></div></div>
+                <div class="col-6 col-lg-3"><div class="mm-stat"><div class="stat-icon" style="background:var(--mm-accent);"><i class="bi bi-graph-up"></i></div><div><div class="stat-value">81%</div><div class="stat-label">Program Avg. Score</div></div></div></div>
+            </div>
+
+            <div class="mm-card p-4">
+                <h6 class="mb-3">Assessment Library</h6>
+                <div class="table-responsive">
+                    <table class="table mm-table align-middle">
+                        <thead><tr><th>Assessment</th><th>Pillar</th><th>Mentor</th><th>Due Date</th><th>Submissions</th><th>Avg. Score</th><th>Actions</th></tr></thead>
+                        <tbody>
+                            <tr><td>Test 1: Leadership Fundamentals Quiz</td><td><span class="mm-badge mm-badge-muted">Leadership</span></td><td>Milton Joel</td><td>20 Sep 2026</td><td>98/100</td><td>79%</td><td><button class="btn btn-sm btn-outline-mm-primary">View</button></td></tr>
+                            <tr><td>Test 2: ICT Literacy Assessment</td><td><span class="mm-badge mm-badge-muted">ICT &amp; Innovation</span></td><td>Sedrick Otolo</td><td>4 Oct 2026</td><td>95/100</td><td>84%</td><td><button class="btn btn-sm btn-outline-mm-primary">View</button></td></tr>
+                            <tr><td>Test 3: Personal Growth Reflection</td><td><span class="mm-badge mm-badge-muted">Personal Growth</span></td><td>Daniel Okot</td><td>18 Oct 2026</td><td>97/100</td><td>88%</td><td><button class="btn btn-sm btn-outline-mm-primary">View</button></td></tr>
+                            <tr><td>Test 4: Entrepreneurship Case Study</td><td><span class="mm-badge mm-badge-muted">Entrepreneurship</span></td><td>Grace Akello</td><td>1 Nov 2026</td><td>82/100</td><td class="text-muted">Grading</td><td><button class="btn btn-sm btn-outline-mm-primary">View</button></td></tr>
+                            <tr><td>Test 5: Mid-Program Comprehensive Test</td><td><span class="mm-badge mm-badge-muted">All Pillars</span></td><td>All Mentors</td><td>8 Nov 2026</td><td>17/100</td><td class="text-muted">&mdash;</td><td><span class="mm-badge mm-badge-pending">Open</span></td></tr>
+                            <tr><td>Test 6: Final Capstone Assessment</td><td><span class="mm-badge mm-badge-muted">All Pillars</span></td><td>All Mentors</td><td>22 Nov 2026</td><td>0/100</td><td class="text-muted">&mdash;</td><td><span class="mm-badge mm-badge-muted">Not Started</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+<div class="modal fade" id="createAssessModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header"><h5 class="modal-title">Create New Assessment</h5><button class="btn-close" data-bs-dismiss="modal"></button></div>
+            <div class="modal-body">
+                <form class="row g-3">
+                    <div class="col-md-8"><label class="form-label">Title</label><input type="text" class="form-control"></div>
+                    <div class="col-md-4"><label class="form-label">Pillar</label><select class="form-select"><option>Leadership</option><option>ICT &amp; Innovation</option><option>Personal Growth</option><option>Entrepreneurship</option><option>All Pillars</option></select></div>
+                    <div class="col-md-6"><label class="form-label">Assigned Mentor</label><select class="form-select"><option>Milton Joel</option><option>Sedrick Otolo</option><option>Grace Akello</option><option>Daniel Okot</option></select></div>
+                    <div class="col-md-6"><label class="form-label">Due Date</label><input type="date" class="form-control"></div>
+                    <div class="col-12">
+                        <label class="form-label">Who Can Take This Test</label>
+                        <select class="form-select">
+                            <option>Only participants marked Present for the linked session</option>
+                            <option>All participants in this pillar</option>
+                            <option>Choose specific participants&hellip;</option>
+                        </select>
+                        <div class="form-text">The assigned mentor sets the questions; only selected, eligible participants will see this test.</div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer"><button class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button><button class="btn btn-mm-primary">Create Assessment</button></div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

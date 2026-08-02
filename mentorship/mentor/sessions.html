@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Sessions | Mentor | MentorMe 360</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link href="../assets/css/style.css" rel="stylesheet">
+<link href="../assets/css/responsive.css" rel="stylesheet">
+</head>
+<body>
+<div class="mm-app">
+    <div class="mm-sidebar-backdrop"></div>
+    <aside class="mm-sidebar">
+        <div class="sidebar-brand"><span class="brand-mark"><i class="bi bi-mortarboard-fill"></i></span>MentorMe <span class="text-mm-accent">360</span></div>
+        <div class="nav-section-label">Mentor Menu</div>
+        <nav class="nav flex-column">
+            <a class="nav-link" href="dashboard.html"><i class="bi bi-grid-1x2-fill"></i> Dashboard</a>
+            <a class="nav-link active" href="sessions.html"><i class="bi bi-calendar2-week-fill"></i> Sessions</a>
+            <a class="nav-link" href="mentees.html"><i class="bi bi-people-fill"></i> Mentees</a>
+            <a class="nav-link" href="materials.html"><i class="bi bi-folder2-open"></i> Materials</a>
+            <a class="nav-link" href="assessments.html"><i class="bi bi-clipboard2-check-fill"></i> Assessments</a>
+            <a class="nav-link" href="grading.html"><i class="bi bi-check2-square"></i> Grading <span class="badge bg-danger rounded-pill ms-auto">6</span></a>
+        </nav>
+        <div class="sidebar-footer"><a class="nav-link px-0" href="../login.html"><i class="bi bi-box-arrow-right"></i> Logout</a></div>
+    </aside>
+
+    <div class="mm-main">
+        <header class="mm-topbar">
+            <div class="d-flex align-items-center">
+                <button class="sidebar-toggle" data-sidebar-toggle><i class="bi bi-list fs-4"></i></button>
+                <h5 class="mb-0 font-heading">My Sessions</h5>
+            </div>
+            <img src="https://i.pravatar.cc/60?img=15" class="rounded-circle" width="40" height="40" alt="Milton Joel">
+        </header>
+
+        <main class="mm-content">
+            <div class="mm-card p-4">
+                <h6 class="mb-3">Assigned Sessions (4)</h6>
+                <div class="table-responsive">
+                    <table class="table mm-table align-middle">
+                        <thead><tr><th>Session</th><th>Pillar</th><th>Date &amp; Time</th><th>Type / Venue</th><th>Engagement</th><th>Actions</th></tr></thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Program Orientation &amp; Launch</strong></td>
+                                <td><span class="mm-badge mm-badge-muted">Leadership</span></td>
+                                <td>Sun, 6 Sep &middot; 9:00 AM</td>
+                                <td><span class="mm-badge mm-badge-physical">Lira</span></td>
+                                <td>96% attended</td>
+                                <td>
+                                    <a href="#" class="btn btn-sm btn-outline-mm-primary">Attendance</a>
+                                    <a href="materials.html" class="btn btn-sm btn-outline-secondary">Materials</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Foundations of Leadership</strong></td>
+                                <td><span class="mm-badge mm-badge-muted">Leadership</span></td>
+                                <td>Sun, 13 Sep &middot; 2:00 PM</td>
+                                <td><span class="mm-badge mm-badge-virtual">Virtual</span></td>
+                                <td>93% attended</td>
+                                <td>
+                                    <a href="#" class="btn btn-sm btn-outline-mm-primary">Attendance</a>
+                                    <a href="materials.html" class="btn btn-sm btn-outline-secondary">Materials</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Capstone Pitch Day</strong></td>
+                                <td><span class="mm-badge mm-badge-muted">Entrepreneurship</span></td>
+                                <td>Sun, 1 Nov &middot; 9:00 AM</td>
+                                <td><span class="mm-badge mm-badge-physical">Kampala</span></td>
+                                <td class="text-muted">Upcoming</td>
+                                <td>
+                                    <a href="#" class="btn btn-sm btn-outline-mm-primary">Send Reminder</a>
+                                    <a href="materials.html" class="btn btn-sm btn-outline-secondary">Materials</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Final Mentorship Circle</strong></td>
+                                <td><span class="mm-badge mm-badge-muted">Personal Growth</span></td>
+                                <td>Sun, 22 Nov &middot; 2:00 PM</td>
+                                <td><span class="mm-badge mm-badge-virtual">Virtual</span></td>
+                                <td class="text-muted">Upcoming</td>
+                                <td>
+                                    <a href="#" class="btn btn-sm btn-outline-mm-primary">Send Reminder</a>
+                                    <a href="materials.html" class="btn btn-sm btn-outline-secondary">Materials</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

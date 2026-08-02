@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Blog Posts | Foundation CMS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="../img/baf.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link href="../css/theme.css" rel="stylesheet">
+<link href="../css/theme-responsive.css" rel="stylesheet">
+</head>
+<body>
+<div class="bf-app">
+    <div class="bf-sidebar-backdrop"></div>
+    <aside class="bf-sidebar">
+        <div class="sidebar-brand"><span class="brand-mark"><img src="../img/baf.png" style="width:22px;height:22px;object-fit:contain;" alt=""></span>Foundation <span class="text-bf-accent">CMS</span></div>
+        <div class="nav-section-label">Content Menu</div>
+        <nav class="nav flex-column">
+            <a class="nav-link" href="dashboard.html"><i class="bi bi-grid-1x2-fill"></i> Dashboard</a>
+            <a class="nav-link active" href="posts.html"><i class="bi bi-file-earmark-post-fill"></i> Blog Posts</a>
+            <a class="nav-link" href="gallery.html"><i class="bi bi-images"></i> Gallery</a>
+            <a class="nav-link" href="comments.html"><i class="bi bi-chat-square-text-fill"></i> Comments <span class="badge bg-danger rounded-pill ms-auto">3</span></a>
+            <a class="nav-link" href="messages.html"><i class="bi bi-envelope-fill"></i> Messages <span class="badge bg-danger rounded-pill ms-auto">5</span></a>
+            <a class="nav-link" href="pages.html"><i class="bi bi-file-earmark-richtext-fill"></i> Site Content</a>
+        </nav>
+        <div class="sidebar-footer"><a class="nav-link px-0" href="login.html"><i class="bi bi-box-arrow-right"></i> Logout</a></div>
+    </aside>
+
+    <div class="bf-main" style="flex:1; min-width:0; display:flex; flex-direction:column;">
+        <header class="bf-topbar" style="background:#fff; border-bottom:1px solid var(--bf-border); padding:0.9rem 1.75rem; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:1020;">
+            <div class="d-flex align-items-center">
+                <button class="sidebar-toggle" data-sidebar-toggle style="display:none;"><i class="bi bi-list fs-4"></i></button>
+                <h5 class="mb-0 font-heading">Blog Posts</h5>
+            </div>
+            <a href="post-edit.html" class="btn btn-bf-primary btn-sm">New Post</a>
+        </header>
+
+        <main class="bf-content" style="padding:1.75rem; flex:1;">
+            <div class="row g-2 mb-3">
+                <div class="col-lg-4"><input type="text" class="form-control" placeholder="Search posts..."></div>
+                <div class="col-6 col-lg-3">
+                    <select class="form-select">
+                        <option>All Categories</option>
+                        <option>Leadership</option>
+                        <option>Women &amp; Girls</option>
+                        <option>Entrepreneurship</option>
+                        <option>ICT &amp; Innovation</option>
+                        <option>Community</option>
+                        <option>MentorMe 360</option>
+                    </select>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <select class="form-select"><option>All Status</option><option>Published</option><option>Draft</option></select>
+                </div>
+            </div>
+
+            <div class="bf-card p-4">
+                <div class="table-responsive">
+                    <table class="table bf-table align-middle">
+                        <thead><tr><th></th><th>Title</th><th>Category</th><th>Comments</th><th>Status</th><th>Date</th><th>Actions</th></tr></thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="../img/baf (1).jpeg" class="rounded-3" style="width:52px;height:52px;object-fit:cover;" alt=""></td>
+                                <td>Hon. Betty Amongi Meets Women Leaders in Lira</td>
+                                <td><span class="bf-badge bf-badge-muted">Women &amp; Girls</span></td>
+                                <td>4</td>
+                                <td><span class="bf-badge bf-badge-active">Published</span></td>
+                                <td>12 Jan 2026</td>
+                                <td><a href="post-edit.html" class="btn btn-sm btn-outline-bf-primary"><i class="bi bi-pencil"></i></a> <button class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../img/baf (3)1.jpg" class="rounded-3" style="width:52px;height:52px;object-fit:cover;" alt=""></td>
+                                <td>Inside the MentorMe 360 Planning Retreat</td>
+                                <td><span class="bf-badge bf-badge-muted">MentorMe 360</span></td>
+                                <td>1</td>
+                                <td><span class="bf-badge bf-badge-active">Published</span></td>
+                                <td>28 Dec 2025</td>
+                                <td><a href="post-edit.html" class="btn btn-sm btn-outline-bf-primary"><i class="bi bi-pencil"></i></a> <button class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../img/baf (2).jpeg" class="rounded-3" style="width:52px;height:52px;object-fit:cover;" alt=""></td>
+                                <td>Foundation Team Convenes to Plan 2026 Programs</td>
+                                <td><span class="bf-badge bf-badge-muted">Community</span></td>
+                                <td>0</td>
+                                <td><span class="bf-badge bf-badge-active">Published</span></td>
+                                <td>15 Dec 2025</td>
+                                <td><a href="post-edit.html" class="btn btn-sm btn-outline-bf-primary"><i class="bi bi-pencil"></i></a> <button class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../img/gathering of african women(1).jpg" class="rounded-3" style="width:52px;height:52px;object-fit:cover;" alt=""></td>
+                                <td>Empowering Women Across Northern Uganda</td>
+                                <td><span class="bf-badge bf-badge-muted">Women &amp; Girls</span></td>
+                                <td>2</td>
+                                <td><span class="bf-badge bf-badge-active">Published</span></td>
+                                <td>2 Dec 2025</td>
+                                <td><a href="post-edit.html" class="btn btn-sm btn-outline-bf-primary"><i class="bi bi-pencil"></i></a> <button class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../img/Tech-in-Africa.jpg" class="rounded-3" style="width:52px;height:52px;object-fit:cover;" alt=""></td>
+                                <td>Young Innovators Showcase Tech Skills</td>
+                                <td><span class="bf-badge bf-badge-muted">ICT &amp; Innovation</span></td>
+                                <td>3</td>
+                                <td><span class="bf-badge bf-badge-active">Published</span></td>
+                                <td>20 Nov 2025</td>
+                                <td><a href="post-edit.html" class="btn btn-sm btn-outline-bf-primary"><i class="bi bi-pencil"></i></a> <button class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td><i class="bi bi-image text-muted fs-3 d-block text-center" style="width:52px;"></i></td>
+                                <td>2026 Scholarship Applications</td>
+                                <td><span class="bf-badge bf-badge-muted">Education</span></td>
+                                <td>0</td>
+                                <td><span class="bf-badge bf-badge-pending">Draft</span></td>
+                                <td>&mdash;</td>
+                                <td><a href="post-edit.html" class="btn btn-sm btn-outline-bf-primary"><i class="bi bi-pencil"></i></a> <button class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i></button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/site.js"></script>
+</body>
+</html>
