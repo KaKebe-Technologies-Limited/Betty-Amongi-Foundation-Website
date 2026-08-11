@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Site Content | Foundation CMS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="../img/baf.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link href="../css/theme.css" rel="stylesheet">
+<link href="../css/theme-responsive.css" rel="stylesheet">
+</head>
+<body>
+<div class="bf-app">
+    <div class="bf-sidebar-backdrop"></div>
+    <aside class="bf-sidebar">
+        <div class="sidebar-brand"><span class="brand-mark"><img src="../img/baf.png" style="width:22px;height:22px;object-fit:contain;" alt=""></span>Foundation <span class="text-bf-accent">CMS</span></div>
+        <div class="nav-section-label">Content Menu</div>
+        <nav class="nav flex-column">
+            <a class="nav-link" href="dashboard.html"><i class="bi bi-grid-1x2-fill"></i> Dashboard</a>
+            <a class="nav-link" href="posts.html"><i class="bi bi-file-earmark-post-fill"></i> Blog Posts</a>
+            <a class="nav-link" href="gallery.html"><i class="bi bi-images"></i> Gallery</a>
+            <a class="nav-link" href="comments.html"><i class="bi bi-chat-square-text-fill"></i> Comments <span class="badge bg-danger rounded-pill ms-auto">3</span></a>
+            <a class="nav-link" href="messages.html"><i class="bi bi-envelope-fill"></i> Messages <span class="badge bg-danger rounded-pill ms-auto">5</span></a>
+            <a class="nav-link active" href="pages.html"><i class="bi bi-file-earmark-richtext-fill"></i> Site Content</a>
+        </nav>
+        <div class="sidebar-footer"><a class="nav-link px-0" href="login.html"><i class="bi bi-box-arrow-right"></i> Logout</a></div>
+    </aside>
+
+    <div class="bf-main" style="flex:1; min-width:0; display:flex; flex-direction:column;">
+        <header class="bf-topbar" style="background:#fff; border-bottom:1px solid var(--bf-border); padding:0.9rem 1.75rem; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:1020;">
+            <div class="d-flex align-items-center">
+                <button class="sidebar-toggle" data-sidebar-toggle style="display:none;"><i class="bi bi-list fs-4"></i></button>
+                <h5 class="mb-0 font-heading">Site Content</h5>
+            </div>
+        </header>
+
+        <main class="bf-content" style="padding:1.75rem; flex:1;">
+            <ul class="nav nav-tabs mb-4">
+                <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#homeTab" type="button">Homepage</button></li>
+                <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#aboutTab" type="button">About Page</button></li>
+                <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#contactTab" type="button">Contact Info</button></li>
+                <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#statsTab" type="button">Impact Stats</button></li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="homeTab">
+                    <div class="bf-card p-4">
+                        <label class="form-label">Hero Title</label>
+                        <input type="text" class="form-control mb-3" value="Betty Amongi Foundation">
+                        <label class="form-label">Hero Subtitle</label>
+                        <textarea class="form-control mb-3" rows="2">We support youth, women, and entrepreneurs across the Lango sub-region and Northern Uganda with seed funding, mentorship, training, and global partnerships — turning ideas into sustainable livelihoods.</textarea>
+                        <label class="form-label">Featured Program Callout</label>
+                        <input type="text" class="form-control mb-3" value="MentorMe 360 — Cohort 2026 Applications Open">
+                        <button class="btn btn-bf-primary">Save Homepage Content</button>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="aboutTab">
+                    <div class="bf-card p-4">
+                        <label class="form-label">Mission Statement</label>
+                        <textarea class="form-control mb-3" rows="3">To equip youth, women, and entrepreneurs across the Lango sub-region with seed funding, mentorship, and skills development that drive sustainable community development.</textarea>
+                        <label class="form-label">Vision Statement</label>
+                        <textarea class="form-control mb-3" rows="3">A Northern Uganda where every young person, woman, and local entrepreneur has access to the opportunity and support they need to thrive.</textarea>
+                        <button class="btn btn-bf-primary">Save About Content</button>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="contactTab">
+                    <div class="bf-card p-4">
+                        <div class="row g-3">
+                            <div class="col-md-6"><label class="form-label">Office Address</label><input type="text" class="form-control" value="Plot 40 Main Street, Lira City, Uganda"></div>
+                            <div class="col-md-6"><label class="form-label">Phone Number</label><input type="text" class="form-control" value="+256 414 675 451"></div>
+                            <div class="col-md-6"><label class="form-label">Email Address</label><input type="email" class="form-control" value="info@bettyamongifoundation.org"></div>
+                            <div class="col-md-6"><label class="form-label">Office Hours</label><input type="text" class="form-control" value="Mon-Fri 9:00 AM - 5:00 PM"></div>
+                        </div>
+                        <button class="btn btn-bf-primary mt-3">Save Contact Info</button>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="statsTab">
+                    <div class="bf-card p-4">
+                        <div class="row g-3">
+                            <div class="col-md-3"><label class="form-label">Youth Empowered</label><input type="text" class="form-control" value="500+"></div>
+                            <div class="col-md-3"><label class="form-label">Innovations Supported</label><input type="text" class="form-control" value="120+"></div>
+                            <div class="col-md-3"><label class="form-label">Partnerships</label><input type="text" class="form-control" value="75+"></div>
+                            <div class="col-md-3"><label class="form-label">Community Impact</label><input type="text" class="form-control" value="98%"></div>
+                        </div>
+                        <button class="btn btn-bf-primary mt-3">Save Impact Stats</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/site.js"></script>
+</body>
+</html>

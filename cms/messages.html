@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Messages | Foundation CMS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="../img/baf.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link href="../css/theme.css" rel="stylesheet">
+<link href="../css/theme-responsive.css" rel="stylesheet">
+</head>
+<body>
+<div class="bf-app">
+    <div class="bf-sidebar-backdrop"></div>
+    <aside class="bf-sidebar">
+        <div class="sidebar-brand"><span class="brand-mark"><img src="../img/baf.png" style="width:22px;height:22px;object-fit:contain;" alt=""></span>Foundation <span class="text-bf-accent">CMS</span></div>
+        <div class="nav-section-label">Content Menu</div>
+        <nav class="nav flex-column">
+            <a class="nav-link" href="dashboard.html"><i class="bi bi-grid-1x2-fill"></i> Dashboard</a>
+            <a class="nav-link" href="posts.html"><i class="bi bi-file-earmark-post-fill"></i> Blog Posts</a>
+            <a class="nav-link" href="gallery.html"><i class="bi bi-images"></i> Gallery</a>
+            <a class="nav-link" href="comments.html"><i class="bi bi-chat-square-text-fill"></i> Comments <span class="badge bg-danger rounded-pill ms-auto">3</span></a>
+            <a class="nav-link active" href="messages.html"><i class="bi bi-envelope-fill"></i> Messages <span class="badge bg-danger rounded-pill ms-auto">5</span></a>
+            <a class="nav-link" href="pages.html"><i class="bi bi-file-earmark-richtext-fill"></i> Site Content</a>
+        </nav>
+        <div class="sidebar-footer"><a class="nav-link px-0" href="login.html"><i class="bi bi-box-arrow-right"></i> Logout</a></div>
+    </aside>
+
+    <div class="bf-main" style="flex:1; min-width:0; display:flex; flex-direction:column;">
+        <header class="bf-topbar" style="background:#fff; border-bottom:1px solid var(--bf-border); padding:0.9rem 1.75rem; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:1020;">
+            <div class="d-flex align-items-center">
+                <button class="sidebar-toggle" data-sidebar-toggle style="display:none;"><i class="bi bi-list fs-4"></i></button>
+                <h5 class="mb-0 font-heading">Contact Messages</h5>
+            </div>
+        </header>
+
+        <main class="bf-content" style="padding:1.75rem; flex:1;">
+            <div class="row g-4">
+                <div class="col-lg-5">
+                    <div class="bf-card p-2">
+                        <div class="list-group list-group-flush">
+                            <a href="#" class="list-group-item list-group-item-action active">
+                                <div class="d-flex justify-content-between"><strong>James Okello</strong><small>3 hrs ago</small></div>
+                                <small class="d-block">Partnership Opportunity</small>
+                                <small class="text-truncate d-block" style="opacity:0.8;">We'd like to discuss a potential ICT training partnership...</small>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <div class="d-flex justify-content-between"><strong>Linda Atim</strong><small>1 day ago</small></div>
+                                <small class="d-block text-muted">General Inquiry</small>
+                                <small class="text-truncate d-block text-muted">Hello, I wanted to ask about the next training cohort...</small>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <div class="d-flex justify-content-between"><strong>David Ocen</strong><small>2 days ago</small></div>
+                                <small class="d-block text-muted">Program Support</small>
+                                <small class="text-truncate d-block text-muted">I applied for seed funding last month and haven't heard back...</small>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <div class="d-flex justify-content-between"><strong>Michael Ekwang</strong><small>3 days ago</small></div>
+                                <small class="d-block text-muted">Media &amp; Press</small>
+                                <small class="text-truncate d-block text-muted">Writing a feature on youth entrepreneurship in Lira...</small>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <div class="d-flex justify-content-between"><strong>Betty Nafuna</strong><small>5 days ago</small></div>
+                                <small class="d-block text-muted">General Inquiry</small>
+                                <small class="text-truncate d-block text-muted">Thank you for the wonderful work you are doing...</small>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="bf-card p-4">
+                        <div class="d-flex justify-content-between align-items-start mb-3">
+                            <div>
+                                <h5 class="mb-1">Partnership Opportunity</h5>
+                                <small class="text-muted">From James Okello &lt;james.okello@gmail.com&gt; &middot; 3 hours ago</small>
+                            </div>
+                            <span class="bf-badge bf-badge-pending">Unread</span>
+                        </div>
+                        <p class="text-muted">Hello, my organization runs digital skills bootcamps for youth in Gulu and we would like to discuss a potential ICT training partnership with the Betty Amongi Foundation. We believe there could be strong synergy with your MentorMe 360 program.</p>
+                        <p class="text-muted">Please let me know a good time for a call this week.</p>
+                        <p class="text-muted mb-4">Best regards,<br>James Okello</p>
+                        <div class="bf-card p-3" style="background:#f8f9fa;">
+                            <label class="form-label small">Reply</label>
+                            <textarea class="form-control mb-2" rows="4" placeholder="Type your reply..."></textarea>
+                            <button class="btn btn-bf-primary btn-sm">Send Reply</button>
+                            <button class="btn btn-outline-danger btn-sm">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/site.js"></script>
+</body>
+</html>
