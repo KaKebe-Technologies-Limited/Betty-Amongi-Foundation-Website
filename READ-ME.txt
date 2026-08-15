@@ -1,9 +1,35 @@
-  =>  Template Name    : Travisa - Visa & Immigration Website Template
+Betty Amongi Foundation — Website
+=================================
 
-  =>  Template Link    : https://htmlcodex.com/visa-immigration-website-template
+Repository: bafofficial
+Org: KaKebe-Technologies-Limited
 
-  =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
+This repo contains three static (HTML/CSS/JS) sites:
 
-  =>  Template Author  : HTML Codex
+1. Main site (/)
+   The Betty Amongi Foundation's public website — Home, About, Services,
+   Young Innovators, Training, Get Involved, Contact, Blog, Gallery.
 
-  =>  Author Website   : https://htmlcodex.com
+2. MentorMe 360 portal (/mentorship)
+   Frontend for the Foundation's flagship mentorship program — public
+   pages plus participant, mentor, and admin dashboards. Phase 1: static
+   UI with dummy data, no backend yet.
+
+3. Foundation CMS (/cms)
+   Admin dashboard for managing the main site's blog posts, gallery,
+   comments, contact messages, and page content. Separate from the
+   MentorMe 360 admin above. Phase 1: static UI with dummy data.
+
+Local development
+------------------
+No build step — plain HTML/CSS/JS. To preview with working relative
+paths, serve the folder instead of opening files directly:
+
+    node .devserver.js
+
+Then open http://localhost:5173.
+
+Credits
+-------
+Built on a customized HTML Codex template base (see LICENSE.txt) by
+Kakebe Technologies.
